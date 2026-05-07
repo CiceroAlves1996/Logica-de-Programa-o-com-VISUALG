@@ -6,7 +6,7 @@ var
    
 inicio
 
-     Escreval ("Ol·, qual o seu nome?")
+     Escreval ("Ol√°, qual o seu nome?")
      Leia (Nome)
      Escreval ("Qual a sua idade?")
      Leia (Numero)
@@ -14,23 +14,23 @@ inicio
      Ano <- (2026)
      
      SE Numero <= 0 ENTAO
-     Escreval ("InformaÁ„o Inv·lida")
+     Escreval ("Informa√ß√£o Inv√°lida")
      SENAO
-     Escreval ("AH!! Ent„o vocÍ nasceu no ano de", Ano - Numero)
+     Escreval ("AH!! Ent√£o voc√™ nasceu no ano de", Ano - Numero)
 
      FIMSE
      
      SE Numero >= 18 ENTAO
-     Escreval ("VocÍ j· È maior de idade")
+     Escreval ("Voc√™ j√° √© maior de idade")
 
      FIMSE
      
      SE (Numero >= 1) E (Numero < 18) ENTAO
-     Escreval ("VocÍ ainda È menor de idade")
+     Escreval ("Voc√™ ainda √© menor de idade")
      FIMSE
 
      SE (Numero) <=0 ENTAO
-     Escreval ("Idade Inv·lida, favor refaÁa o question·rio.")
+     Escreval ("Idade Inv√°lida, favor refa√ßa o question√°rio.")
 
      FIMSE
 
