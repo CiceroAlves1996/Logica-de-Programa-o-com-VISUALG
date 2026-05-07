@@ -5,12 +5,12 @@ var
 
 inicio
 
-   EscrevaL ("Digite um número")
+   EscrevaL ("Digite um nÃºmero")
    leia (numero)
    
    se numero mod 2 = 0 ENTAO
-      EscrevaL ("É impar")
+      EscrevaL ("Ã‰ impar")
    senao
-      EscrevaL ("É par")
+      EscrevaL ("Ã‰ par")
    FIMSE
 fimalgoritmo
