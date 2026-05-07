@@ -1,4 +1,4 @@
-algoritmo "Conversão de Temperatura"
+algoritmo "ConversÃ£o de Temperatura"
 var
 
    numero: inteiro
@@ -6,9 +6,9 @@ var
 
 inicio
 
-   // Identificação da conversão que deseja fazer.
+   // IdentificaÃ§Ã£o da conversÃ£o que deseja fazer.
 
-   Escreval ("Olá! Qual conversão você deseja fazer?")
+   Escreval ("OlÃ¡! Qual conversÃ£o vocÃª deseja fazer?")
    Escreval ("Celsius -> Fahrenheit Press 1")
    Escreval ("Celsius -> Kelvin Press 2")
    Escreval ("Fahrenheit -> Celsius Press 3")
@@ -17,48 +17,48 @@ inicio
    Escreval ("Kelvin -> Fahrenheit Press 6")
    Leia (numero)
 
-   // Conversão com referência a opção selecionada acima.
+   // ConversÃ£o com referÃªncia a opÃ§Ã£o selecionada acima.
 
    SE numero = 1   ENTAO
       Escreval ("Digite a temperatura atual em celsius.")
       Leia (cel)
       celfah <-  (cel*9/5)+32
-      Escreval ("O resultado é:", celfah:5:2)
+      Escreval ("O resultado Ã©:", celfah:5:2)
    SENAO
       SE numero = 2 ENTAO
          Escreval ("Digite a temperatura atual em celsius.")
          Leia (cel)
          celkel <- cel+273.15
-         Escreval ("O resultado é: ", celkel:5:2)
+         Escreval ("O resultado Ã©: ", celkel:5:2)
       SENAO
          SE numero = 3 ENTAO
             Escreval ("Digite a temperatura atual em Fahrenheit.")
             Leia (fah)
             fahcel <-  (fah-32)*5/9
-            Escreval ("O resultado é: ", fahcel:5:2)
+            Escreval ("O resultado Ã©: ", fahcel:5:2)
          SENAO
             SE numero = 4 ENTAO
                Escreval ("Didige a temperatura atual em Fahrenheit.")
                Leia (fah)
                fahkel <-  (fah-32)*5/9+273.15
-               Escreval ("O resultado é: ", fahkel:5:2)
+               Escreval ("O resultado Ã©: ", fahkel:5:2)
             SENAO
                SE numero = 5 ENTAO
                   Escreval ("Digite a temperatura atual em Kelvin.")
                   Leia (kel)
                   kelcel <-   kel-273.15
-                  Escreval ("O resultado é: ", kelcel:5:2)
+                  Escreval ("O resultado Ã©: ", kelcel:5:2)
                SENAO
                   SE numero = 6 ENTAO
                      Escreval ("Digite a temperatura atual em Kelvin")
                      Leia (kel)
                      kelfah <-  (kel-273.15)*9/5+32
-                     Escreval ("O resultado é: ", kelfah:5:2)
+                     Escreval ("O resultado Ã©: ", kelfah:5:2)
 
-                     //Caso preenchido um número diferente das condições acima.
+                     //Caso preenchido um nÃºmero diferente das condiÃ§Ãµes acima.
 
                   SENAO
-                     Escreval ("Você digitou um número inválido, favor reiniciar a conversão.")
+                     Escreval ("VocÃª digitou um nÃºmero invÃ¡lido, favor reiniciar a conversÃ£o.")
 Fimalgoritmo
 FIMSE
 FIMSE
