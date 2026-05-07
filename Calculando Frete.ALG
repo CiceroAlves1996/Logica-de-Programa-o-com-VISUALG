@@ -8,11 +8,11 @@ inicio
 
       Escreval ("Digite o peso do pacote")
                Leia (peso)
-      Escreval ("Digite a dist‚ncia em KM.")
+      Escreval ("Digite a dist√¢ncia em KM.")
                Leia (distancia)
       Escreval ("Selecione o tipo de entrega.")
-      Escreval ("1 - EconÙmica")
-      Escreval ("2 - R·pida")
+      Escreval ("1 - Econ√¥mica")
+      Escreval ("2 - R√°pida")
       Escreval ("3 - Expressa")
                Leia (numero)
       
@@ -22,15 +22,15 @@ inicio
         expressa <- custo_base*1.5
       
       SE numero = 1 ENTAO
-         Escreval ("O valor do seu frete na econÙmica fica em: R$", economica)
+         Escreval ("O valor do seu frete na econ√¥mica fica em: R$", economica)
                       SENAO
       SE numero = 2 ENTAO
-         Escreval ("O valor do seu frete na r·pida fica em: R$", rapida)
+         Escreval ("O valor do seu frete na r√°pida fica em: R$", rapida)
                       SENAO
       SE numero = 3 ENTAO
          Escreval ("O valor do seu frete no expresso fica em: R$",expressa)
                       SENAO
-                           Escreval ("VocÍ digitou um n˙mero inv·lido.")
+                           Escreval ("Voc√™ digitou um n√∫mero inv√°lido.")
                   FIMSE
                        FIMSE
                             FIMSE
