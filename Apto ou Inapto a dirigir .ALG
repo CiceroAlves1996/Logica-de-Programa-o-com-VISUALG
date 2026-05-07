@@ -16,16 +16,16 @@ inicio
       
       media <- (n1+n2+n3+n4) / 4
       
-      Escreval ("Sua média é de: ", media, " pts.")
+      Escreval ("Sua mÃ©dia Ã© de: ", media, " pts.")
       
       SE media >= 7 ENTAO
-         EscrevaL ("Parabéns você está APROVADO.")
+         EscrevaL ("ParabÃ©ns vocÃª estÃ¡ APROVADO.")
       SENAO
       SE media < 6 ENTAO
-         EscrevaL ("Você está Reprovado.")
+         EscrevaL ("VocÃª estÃ¡ Reprovado.")
       SENAO
       SE (media >= 6) e (media < 7) ENTAO
-         EscrevaL ("Você está de recuperação.")
+         EscrevaL ("VocÃª estÃ¡ de recuperaÃ§Ã£o.")
          
       FIMSE
       FIMSE
