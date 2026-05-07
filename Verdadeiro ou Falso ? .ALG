@@ -6,10 +6,10 @@ var
 
 inicio
 
-    Escreval ("Olá, qual a sua idade?")
+    Escreval ("OlÃ¡, qual a sua idade?")
     Leia (idade)
     
-    Escreval ("Você possui carteira de estudante? 1 para SIM e 0 para NÃO")
+    Escreval ("VocÃª possui carteira de estudante? 1 para SIM e 0 para NÃƒO")
     Leia (Numero)
     
     SE (Idade < 18) E (Numero = 1) ENTAO
