@@ -5,9 +5,9 @@ var
     
 inicio
 
-      Escreval ("Olá professor, tudo bem?")
-      Escreval ("Vejo que o senhor quer saber se o aluno atingiu a média")
-      Escreval ("para ver se foi aprovado ou não")
+      Escreval ("OlÃ¡ professor, tudo bem?")
+      Escreval ("Vejo que o senhor quer saber se o aluno atingiu a mÃ©dia")
+      Escreval ("para ver se foi aprovado ou nÃ£o")
       
       Escreval ("Digite a primeira nota")
       Leia (n1)
@@ -21,20 +21,20 @@ inicio
       media <- (n1 + n2 + n3 + n4)/4
 
       SE media >= 6 ENTAO
-      Escreval ("Parabéns, você está aprovado. Sua média foi de: ", media)
+      Escreval ("ParabÃ©ns, vocÃª estÃ¡ aprovado. Sua mÃ©dia foi de: ", media)
       SENAO
       SE media < 4 ENTAO
-      Escreval ("Você está reprovado. Sua média foi de: ", media)
+      Escreval ("VocÃª estÃ¡ reprovado. Sua mÃ©dia foi de: ", media)
       SENAO
-      Escreval ("Você está de recuperação. Sua média foi de: ", media)
-      Escreval ("Digite sua nota de recuperação")
+      Escreval ("VocÃª estÃ¡ de recuperaÃ§Ã£o. Sua mÃ©dia foi de: ", media)
+      Escreval ("Digite sua nota de recuperaÃ§Ã£o")
       Leia (nrecu)
       nf <- (media + nrecu) / 2
-      Escreval ("Sua média ficou em: ",nf )
+      Escreval ("Sua mÃ©dia ficou em: ",nf )
       SE nf >=6 ENTAO
-      Escreval ("Parabéns, você foi aprovado.")
+      Escreval ("ParabÃ©ns, vocÃª foi aprovado.")
       SENAO
-      Escreval ("Você está reprovado.")
+      Escreval ("VocÃª estÃ¡ reprovado.")
       FIMSE
       FIMSE
       FIMSE
