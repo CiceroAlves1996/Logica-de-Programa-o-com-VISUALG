@@ -5,9 +5,9 @@ var
    saldo, dep, sac, saldodep, saldosac: real
 inicio
 
-   EscrevaL ("Ol·, digite o seu nome")
+   EscrevaL ("Ol√°, digite o seu nome")
    leia (nome)
-   EscrevaL ("Ol· sr. ", nome, ", qual das opÁıes o senhor deseja?")
+   EscrevaL ("Ol√° sr. ", nome, ", qual das op√ß√µes o senhor deseja?")
    EscrevaL ("1 - Ver Saldo")
    EscrevaL ("2 - Depositar")
    EscrevaL ("3 - Sacar")
@@ -18,12 +18,12 @@ inicio
 
    Escolha numero
    caso 1
-      EscrevaL ("O seu saldo È de: R$", saldo)
+      EscrevaL ("O seu saldo √© de: R$", saldo)
    caso 2
       EscrevaL (nome, ". Quanto o senhor deseja depositar?")
       leia (dep)
       saldodep <- saldo + dep
-      EscrevaL ("VocÍ depositou R$", dep, ". Seu saldo atual È de: R$", saldodep)
+      EscrevaL ("Voc√™ depositou R$", dep, ". Seu saldo atual √© de: R$", saldodep)
    caso 3
       EscrevaL (nome, ". Quanto o senhor deseja sacar?")
       Leia (sac)
@@ -32,12 +32,12 @@ inicio
          EscrevaL ("Saldo insuficiente")
       SENAO
          EscrevaL (nome, ". O senhor sacou: R$", sac)
-         EscrevaL ("Seu saldo atual È de: R$", saldosac )
+         EscrevaL ("Seu saldo atual √© de: R$", saldosac )
       FIMSE
    caso 4
-      EscrevaL (nome, ". AtÈ breve.")
+      EscrevaL (nome, ". At√© breve.")
    outrocaso
-      EscrevaL ("N˙mero inv·lido.")
+      EscrevaL ("N√∫mero inv√°lido.")
    fimescolha
 
 
