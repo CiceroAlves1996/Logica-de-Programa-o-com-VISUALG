@@ -5,11 +5,11 @@ var
      OPERACAO: caractere
 inicio
 
-     Escreval ("Digite um número: ")
+     Escreval ("Digite um nÃºmero: ")
          Leia (Numero1)
-     Escreval ("Digite um outro número:")
+     Escreval ("Digite um outro nÃºmero:")
          Leia (Numero2)
-     Escreval ("Qual operação matemática você deseja?")
+     Escreval ("Qual operaÃ§Ã£o matemÃ¡tica vocÃª deseja?")
          Leia (OPERACAO)
 
      S  <- (Numero1 + Numero2)
@@ -18,22 +18,22 @@ inicio
      D <-  (Numero1 / Numero2)
      
      SE OPERACAO = "S" ENTAO
-     Escreval ("A soma entre", Numero1, "e", Numero2, "é", S)
+     Escreval ("A soma entre", Numero1, "e", Numero2, "Ã©", S)
      
      FIMSE
 
      SE OPERACAO = "SB" ENTAO
-     Escreval ("O resultado é: ", SB)
+     Escreval ("O resultado Ã©: ", SB)
      
      FIMSE
      
      SE OPERACAO = "MU" ENTAO
-     Escreval ("O resultado é:", MU)
+     Escreval ("O resultado Ã©:", MU)
 
      FIMSE
      
      SE OPERACAO = "D" ENTAO
-     Escreval ("O resultado é: ", D)
+     Escreval ("O resultado Ã©: ", D)
      
      FIMSE
 
