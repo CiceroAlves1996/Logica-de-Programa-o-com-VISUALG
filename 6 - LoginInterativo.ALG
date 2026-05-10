@@ -1,12 +1,12 @@
-algoritmo "CriaÁ„o de senha"
+algoritmo "Cria√ß√£o de senha"
 var
    numero, criacao_senha, senha, senhacad: inteiro
 inicio
 
    EscrevaL ("--------------------------------------------------------------")
-   EscrevaL ("Ol·, esse È seu primeiro login ou j· possui uma conta conosco?")
+   EscrevaL ("Ol√°, esse √© seu primeiro login ou j√° possui uma conta conosco?")
    EscrevaL ("------------------[1] - PRIMEIRO LOGIN------------------------")
-   EscrevaL ("------------------[2] - J¡ POSSUO CONTA-----------------------")
+   EscrevaL ("------------------[2] - J√Å POSSUO CONTA-----------------------")
    EscrevaL ("--------------------------------------------------------------")
    Leia (numero)
 
